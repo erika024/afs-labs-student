@@ -26,3 +26,4 @@ spec:
         image: harbor.dev.afsmtddso.com/esaenz-harbor-project/app:971c881-35b08b9
         ports:
         - containerPort: 5000
+        
