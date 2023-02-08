@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: docker pull harbor.dev.afsmtddso.com/esaenz-harbor-project/db@sha256:10025c538a2df140369daa01767ca95150d0feeed497e72edbe62efe2f82b435
+        image: harbor.dev.afsmtddso.com/esaenz-harbor-project/db:971c881-35b08b9
         ports:
         - containerPort: 5432
