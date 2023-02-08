@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: app-deployment
-        image: harbor.dev.afsmtddso.com/esaenz-harbor-project/lab-env-repo:1.0
+        image: harbor.dev.afsmtddso.com/esaenz-harbor-project/app@sha256:edddeece4b7b7a8c074974ca36e3f564378b007d94864d94a6eaae97a08edd7f
         ports:
         - containerPort: 5000
