@@ -1,4 +1,4 @@
---
+-- DB Pipeline
 -- PostgreSQL database dump
 --
 
